@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+	<HEAD>
+		<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<TITLE>My XmlTv (beta version)</TITLE>
+		<SCRIPT type="text/javascript" src="./creafileguida.js"></SCRIPT>
+		<SCRIPT type="text/javascript" src="./stampaguida.js"></SCRIPT>
+		<LINK rel="stylesheet" href="style.css" type="text/css" media="screen">
+	</HEAD>
+
+	<BODY id="miocorpo">
+	
+		<H1>My XmlTv</H1> 
+		<H3>Visualizza o crea la tua guida tv personalizzata di oggi.</H3>
+		<DIV id="elencocanali">
+			<FORM action="#" name="sceltaCanali">
+				<TABLE>
+					<TR>
+						<TD><INPUT type="checkbox" name="Rai Uno" value="RaiUno"></TD>
+						<TD><IMG src="./immagini/logo_rai1.png" alt="Rai Uno"></TD>
+						<TD><INPUT type="checkbox" name="Rai Due" value="RaiDue"></TD>
+						<TD><IMG src="./immagini/logo_rai2.png" alt="Rai Due"></TD>
+						<TD><INPUT type="checkbox" name="Rai Tre" value="RaiTre"></TD>
+						<TD><IMG src="./immagini/logo_rai3.png" alt="Rai Tre"></TD>
+						<TD><INPUT type="checkbox" name="Rai 4" value="Rai4"></TD>
+						<TD><IMG src="./immagini/logo_rai4.png" alt="Rai 4"></TD>
+					</TR>
+					<TR>
+						<TD><INPUT type="checkbox" name="Rai Sport 1" value="RaiSport1"></TD>
+						<TD><IMG src="./immagini/logo_raisport1.png" alt="Rai Sport 1"></TD>
+						<TD><INPUT type="checkbox" name="Rai Sport 2" value="RaiSport2"></TD>
+						<TD><IMG src="./immagini/logo_raisport2.png" alt="Rai Sport 2"></TD>
+						<TD><INPUT type="checkbox" name="Rai Scuola" value="RaiEducational"></TD>
+						<TD><IMG src="./immagini/logo_raiscuola.png" alt="Rai Scuola"></TD>
+						<TD><INPUT type="checkbox" name="Rai Extra" value="Extra"></TD>
+						<TD><IMG src="./immagini/logo_raiextra.png" alt="Rai Extra"></TD>
+					</TR>
+					<TR>
+						<TD><INPUT type="checkbox" name="Rai Premium" value="Premium"></TD>
+						<TD><IMG src="./immagini/logo_raipremium.png" alt="Rai Premium"></TD>
+						<TD><INPUT type="checkbox" name="Rai Yoyo" value="Yoyo"></TD>
+						<TD><IMG src="./immagini/logo_raiyoyo.png" alt="Rai Yoyo"></TD>
+						<TD><INPUT type="checkbox" name="Rai Movie" value="CinemaWorld"></TD>
+						<TD><IMG src="./immagini/logo_raimovie.png" alt="Rai Movie"></TD>
+						<TD><INPUT type="checkbox" name="Rai Gulp" value="RaiGulp"></TD>
+						<TD><IMG src="./immagini/logo_raigulp.png" alt="Rai Gulp"></TD>
+					</TR>
+					<TR>
+						<TD id="check"><INPUT type="checkbox" name="Rai Storia" value="RaiEDU2"></TD>
+						<TD><IMG src="./immagini/logo_raistoria.png" alt="Rai Storia"></TD>
+					</TR>
+				</TABLE>
+			</FORM>
+			<DIV id="tasti">
+				<BUTTON onclick="ajaxGestore()">Start</BUTTON>
+				<BUTTON onclick="setallcheckbox(false)">Reset</BUTTON>
+				<BUTTON onclick="setallcheckbox(true)">Seleziona tutti</BUTTON>
+			</DIV>
+		</DIV>
+		<DIV id="footer">
+			<IMG src="./immagini/html4_0_1B.png" alt="Conforme allo standard Html 4.01">
+			<IMG src="./immagini/csslevel2B.png" alt="Conforme allo standard Css 2">
+		</DIV>
+	</BODY>
+</HTML>

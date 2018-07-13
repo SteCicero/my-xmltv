@@ -1,0 +1,119 @@
+BODY
+{
+	background-image: url(./immagini/tv3.png);
+	background-repeat: no-repeat;
+	background-position: 100px 27px;
+}
+
+H1
+{
+	margin-left: 470px;
+	font-family: "Bank Gothic","Lucida Sans",sans-serif;
+}
+
+H3
+{
+	margin-left: 140px;
+	font-family: Arial,sans-serif;
+	color: white;
+}
+
+THEAD
+{
+	font-size: x-large;
+}
+
+TABLE
+{
+	margin-left: 260px;
+}
+
+INPUT
+{
+	width: 15px;
+}
+
+BUTTON
+{
+	font-size: xx-large;
+}
+
+#tasti
+{
+	margin-top: 100px;
+	width: 449px;
+	height: 45px;
+	overflow: hidden;
+	margin-left: 310px;
+}
+
+#vdescr
+{
+	color: white;
+	border: 2px groove blue;
+	height: 67px;
+	width: 834px;
+	overflow: auto;
+	margin-left: 119px;
+	margin-bottom: 100px;
+	padding: 3px;
+}
+
+#containergriglia
+{
+	margin-top:-20px;
+	width:840px; 
+	height:372px;
+	overflow: auto;
+	margin-left: 121px;
+}
+
+
+
+#timeline
+{
+	margin-left: 95px;
+	overflow: hidden;
+	height:40px;
+	width:5760px;
+}
+
+#ora
+{
+	font-family:"Arial Black",Gadget,sans-serif;
+	font-size:large;
+	float: left;
+	background-color: #e65c70;
+	width: 239px;
+	line-height: 40px;
+	display: inline;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+#palinsesto
+{
+	font-family: "Helvetica",Arial,sans-serif;
+	font-size: small;
+	margin-top: 5px;
+	height: 40px;
+	width: 5855px;
+}
+
+#canale
+{
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	background-color:#5ce6a8;
+	width: 90px;
+	line-height: 40px;
+}
+
+#footer
+{
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	z-index: -1;
+}
